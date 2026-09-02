@@ -5,6 +5,10 @@ edition = "2024"
 rust-version = "1.85"
 description = "A corpus-driven Vue single-file component to QML converter"
 license = "MIT"
+repository = "https://github.com/sfg5453/vue2qml"
+homepage = "https://github.com/sfg5453/vue2qml"
+keywords = ["vue", "qml", "qt", "converter", "rust"]
+categories = ["command-line-utilities", "development-tools"]
 
 [lib]
 name = "vue2qml"
