@@ -1,0 +1,22 @@
+[package]
+name = "vue2qml"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A corpus-driven Vue single-file component to QML converter"
+license = "MIT"
+
+[lib]
+name = "vue2qml"
+path = "src/lib.rs"
+
+[[bin]]
+name = "vue2qml"
+path = "src/main.rs"
+
+[lints.rust]
+unsafe_code = "forbid"
+warnings = "deny"
+
+[lints.clippy]
+all = "deny"
